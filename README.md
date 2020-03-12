@@ -1,3 +1,5 @@
+Click to play: https://mk-yune.github.io/tic-tac-toe/
+
 ## Description
 Tic Tac Toe game implemented with [svelte](https://svelte.dev/).
 
