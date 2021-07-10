@@ -1,40 +1,22 @@
-Click to play: https://mk-yune.github.io/tic-tac-toe/
+Demo: https://mk-yune.github.iio/tic-tac-toe
 
 ## Description
-Tic Tac Toe game implemented with [svelte](https://svelte.dev/).
+Tic-tac-toe implemented with [svelte](https://svelte.dev/).
 
-- 3 x 3 ~ 10 x 10 grids
-- AI player using _minimax_ algorithm. (Check [here](https://thecodingtrain.com/CodingChallenges/154-tic-tac-toe-minimax.html) if you're interested)
+Tic-tac-toe is a two player game, *X* and *O*, who mark the spaces in a grid in turn. The game ends when either player places their marks in a row diagonally, horizontally, or vertically, and that player wins the game. Also, there is a possibility of a draw when all the spaces are filled with marks in a way that there is no rows placed in a row.
 
-## Test in your machine
+This project is a web implementation of tic-tac-toe. Here's the list of features:
 
-Clone the project...
+- 3x3 ~ 10x10 grid
+- a (stupid) game AI that marks randomly
+- a game AI that employs the *minimax* algorithm
 
-```bash
-git clone 
-```
 
-Install the dependencies...
+## Run it locally on your computer
 
-```bash
+```shell
+git clone https://github.com/yunemk/tic-tac-toe.git
 cd tic-tac-toe
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-## Building and running in production mode
-
-To create an optimized version of the app:
-
-```bash
 npm run build
+npm run start
 ```
-
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
