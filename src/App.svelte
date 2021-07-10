@@ -32,7 +32,7 @@
     const [x, y] = computer.choice(blocks, { myMark, opponentMark });
     blocks[x][y].mark = opponentMark;
   });
-  TM.afterTurnChanges((turn, tm) => {
+  TM.afterTurnChanges((_turn, tm) => {
     winner = getWinner(blocks, { myMark, opponentMark });
     if (winner) tm.stop();
   });

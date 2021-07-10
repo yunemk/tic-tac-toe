@@ -11,9 +11,9 @@
       case "me":
         return "You won!";
       case "opponent":
-        return "You failed...";
+        return "Failed...";
       case "tie":
-        return "Tie";
+        return "Draw";
     }
   };
 </script>
@@ -27,8 +27,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #111;
-    opacity: 0.8;
+    background-color: #111d;
     h1 {
       font-size: 4rem;
       margin: 0 0 1rem;

@@ -10,9 +10,11 @@
   };
 </script>
 
-<style>
+<style lang="scss">
   div {
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
     border: 4px ridge aquamarine;
     background-color: lighten(aquamarine, 22%);
   }
