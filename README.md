@@ -1,4 +1,4 @@
-Demo: https://mk-yune.github.iio/tic-tac-toe
+Demo: https://yunemk.github.io/tic-tac-toe/
 
 ## Description
 Tic-tac-toe implemented with [svelte](https://svelte.dev/).
